@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>CommonComponent</PackageId>
+  <Version>1.0.0</Version>
+  <Authors>Ye</Authors>
+  <Company>CHT</Company>
   </PropertyGroup>
 
   <ItemGroup>
