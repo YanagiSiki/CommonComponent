@@ -1,5 +1,5 @@
 ﻿using System;
-// using CryptoHelper;
+using CryptoHelper;
 
 namespace CommonComponent
 {
@@ -12,8 +12,7 @@ namespace CommonComponent
         /// <returns>hash 過的密碼</returns>
         public static string HashPassword(this string password)
         {
-            // return Crypto.HashPassword(password);
-            return "";
+            return Crypto.HashPassword(password);
         }
 
         /// <summary>
@@ -24,8 +23,7 @@ namespace CommonComponent
         /// <returns></returns>
         public static bool VerifyPassword(this string password, string hashedPassword)
         {
-            // return Crypto.VerifyHashedPassword(hashedPassword, password);
-            return true;
+            return Crypto.VerifyHashedPassword(hashedPassword, password);
         }
 
         public const string Alphabet = "abcdefghijklmnopqrstuvwyxzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
